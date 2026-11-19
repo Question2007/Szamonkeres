@@ -38,7 +38,6 @@ async function init() {
             i.premium = true;
             premium.textContent = '✅';
             
-            console.log(i.premium)
             setTimeout(() => {
                 uzenet.style.display = "none";
             }, 5000)
