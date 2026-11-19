@@ -20,7 +20,7 @@ async function init() {
             premium.textContent = "❌"
         }
 
-        paid.textContent = i.paid_total;
+        paid.textContent = "$" + i.paid_total;
 
         if (i.paid_total > 800) {
             tr.classList.add("gold");
