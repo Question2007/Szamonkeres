@@ -34,6 +34,11 @@ async function init() {
 
         premium.addEventListener("click", () => {
             uzenet.style.display = "block";
+
+            i.premium = true;
+            premium.textContent = '✅';
+            
+            console.log(i.premium)
             setTimeout(() => {
                 uzenet.style.display = "none";
             }, 5000)

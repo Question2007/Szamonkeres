@@ -1,7 +1,7 @@
 [
   {
     "subscriber": "Alice Johnson",
-    "premium": true,
+    "premium": false,
     "paid_total": 125.5
   },
   {
@@ -31,7 +31,7 @@
   },
   {
     "subscriber": "Isabella Martinez",
-    "premium": true,
+    "premium": false,
     "paid_total": 500.0
   },
   {
@@ -41,7 +41,7 @@
   },
   {
     "subscriber": "Mia Thomas",
-    "premium": true,
+    "premium": false,
     "paid_total": 750.75
   },
   {
@@ -51,7 +51,7 @@
   },
   {
     "subscriber": "Charlotte Moore",
-    "premium": true,
+    "premium": false,
     "paid_total": 320.0
   },
   {
