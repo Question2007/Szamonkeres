@@ -24,10 +24,6 @@ async function init() {
 
         if (i.paid_total > 800) {
             tr.classList.add("gold");
-            tr.classList.add("bg-warning")
-            subscriber.classList.add("bg-warning")
-            premium.classList.add("bg-warning")
-            paid.classList.add("bg-warning")
         }
 
         tr.appendChild(subscriber)
