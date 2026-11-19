@@ -35,13 +35,20 @@ async function init() {
         premium.addEventListener("click", () => {
             uzenet.style.display = "block";
 
-            i.premium = true;
-            premium.textContent = '✅';
+            if (premium.textContent == '❌') {
+                i.premium = true;
+                premium.textContent = '✅';
+            }
+            else {
+                i.premium = false;
+                premium.textContent = '❌';
+            }
             
             setTimeout(() => {
                 uzenet.style.display = "none";
             }, 5000)
         })
+
     }
 }
 
